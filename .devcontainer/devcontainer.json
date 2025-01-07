@@ -10,7 +10,15 @@
             "extensions": [
                 "Shopify.ruby-lsp",
                 "redhat.vscode-yaml",
-                "VisualStudioExptTeam.vscodeintellicode"
+                "VisualStudioExptTeam.vscodeintellicode",
+                "intellsmi.comment-translate",
+                "ms-azuretools.vscode-docker",
+                "Zignd.html-css-class-completion",
+                "ritwickdey.LiveServer",
+                "ms-vsliveshare.vsliveshare",
+                "christian-kohler.path-intellisense",
+                "mechatroner.rainbow-csv",
+                "shardulm94.trailing-spaces"
             ]
         }
     },

@@ -3,10 +3,10 @@ services:
         build:
             context: .
             args:
-                VARIANT: "3.1-bullseye"
-                BUNDLER_VERSION: "2.3.14"
-                RAILS_VERSIONS: "7.0.3"
-                NODE_VERSION: "16"
+                VARIANT: "3-bullseye"
+                BUNDLER_VERSION: "2.6.2"
+                RAILS_VERSIONS: "7.2.2.1"
+                NODE_VERSION: "22"
         environment:
             BINDING: 0.0.0.0
         volumes:
