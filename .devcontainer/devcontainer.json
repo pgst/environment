@@ -1,0 +1,23 @@
+{
+    "name": "Ruby on Rails 7 devcontainer",
+    "dockerComposeFile": ["compose.yaml"],
+    "service": "app",
+    "runServices": ["app"],
+    "workspaceFolder": "/home/vscode/environment",
+    "remoteUser": "vscode",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "Shopify.ruby-lsp",
+                "redhat.vscode-yaml",
+                "VisualStudioExptTeam.vscodeintellicode"
+            ]
+        }
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/sshd:1": {
+            "version": "latest"
+        }
+    },
+    "postCreateCommand": "echo 'export PATH=./bin:$PATH' >> ~/.bashrc"
+}
